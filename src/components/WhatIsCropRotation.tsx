@@ -3,7 +3,7 @@ import { Leaf, RefreshCw } from "lucide-react";
 
 const WhatIsCropRotation = () => {
   return (
-    <section className="py-20 px-4">
+    <section id="what-is-crop-rotation" className="py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">

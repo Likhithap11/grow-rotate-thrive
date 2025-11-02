@@ -21,11 +21,31 @@ const CallToAction = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-              <Button size="lg" variant="hero" className="text-lg px-8">
+              <Button 
+                size="lg" 
+                variant="hero" 
+                className="text-lg px-8"
+                onClick={() => {
+                  document.getElementById('what-is-crop-rotation')?.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                  });
+                }}
+              >
                 <BookOpen className="mr-2 h-5 w-5" />
                 Download Resources
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 bg-card/10 backdrop-blur-sm border-card/40 text-primary-foreground hover:bg-card/20">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="text-lg px-8 bg-card/10 backdrop-blur-sm border-card/40 text-primary-foreground hover:bg-card/20"
+                onClick={() => {
+                  document.getElementById('benefits')?.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                  });
+                }}
+              >
                 <Users className="mr-2 h-5 w-5" />
                 Join Community
               </Button>
