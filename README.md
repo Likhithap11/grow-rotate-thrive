@@ -14,6 +14,8 @@ A modern web application designed to be responsive, efficient, and easy to custo
 ---
 
 ## 🛠️ Tech Stack
-- **Frontend:** HTML, CSS, JavaScript  
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js / Python (if included)  
+- **Framework:** React / Flask / Express (depending on your project)  
 - **Tools:** VS Code, Git, npm or pip
 
